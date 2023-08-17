@@ -1,5 +1,6 @@
 package model.controller;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,7 +16,7 @@ public class InicioController {
      */
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public ModelAndView mostrarInicio() {
-        return new ModelAndView("inicio", "mensaje", "Hola Mundo!");
+        return new ModelAndView("inicio");
     }
 
 }

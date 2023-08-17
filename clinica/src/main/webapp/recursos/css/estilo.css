@@ -2,6 +2,28 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+  .navbar-container {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: autopx;
+  }
+
+⁄ body {
+	font-family: arial;
+}
+
+body img {
+	float: left;
+	width: 130px;
+	height: auto;
+}
+
+body {
+	background-image: url("/clinica/res/img/imagen1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/* Centrar el fondo */
 }
